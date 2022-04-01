@@ -41,37 +41,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-// .................................................................
-
-body{
-  width: 100%;
-  color: #4d4d4d;
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f8f5f5;
-  h1{
-    font-size: 40px;
-    font-weight: 500;
-    color: rgb(226, 219, 219);
-    margin-bottom: 20px;
-  }
-  .inputParentContainer{
-    width: 50%;
-    margin: 0 auto;
-    height: 50px;
-    background-color: white;
-    input{
-      width: 90%;
-      border: none;
-      outline: none;
-      height: 96%;
-      font-size: 15px;
-      padding-left: 15px;
-    };
-    .clearInput{
-      cursor: pointer;
-        :hover{
-          display: block;
-        }
-    }  
-  }
-}
